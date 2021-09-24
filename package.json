@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@tauri-apps/api": "^1.0.0-beta.8",
+    "@tauri-apps/cli": "^1.0.0-beta.10",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -15,6 +16,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.42.1",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -43,7 +45,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@tauri-apps/cli": "^1.0.0-beta.10"
-  }
+  "devDependencies": {},
+  "main": "index.js",
+  "repository": "git@github.com:tomnattle/notebook.git",
+  "author": "tomnattle <tomnattle@qq.com>",
+  "license": "MIT"
 }
